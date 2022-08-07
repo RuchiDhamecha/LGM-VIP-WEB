@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Oleo+Script+Swash+Caps&family=Pacifico&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    margin-top: 10px;
+    font-family: 'Macondo', cursive;
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #8009afa0,
+        #71d6f7
+          );
+    background-repeat: no-repeat;
+}
+.container{
+    width: 50%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 30px 50px;
+    top: 50%;
+    left: 50%;
+    border-bottom: 5px solid rgb(149, 51, 179);
+    border-top: 5px solid rgb(113, 214, 247);
+    border-top-left-radius: 75px ;
+    border-bottom-right-radius: 75px ;
+}
+
+h3{
+    align-content: center;
+    text-align: center;
+    padding: 13px;
+    margin: 15px 20% 15px 20% ; /* margin : top right bottom left;*/
+    background: linear-gradient(
+        135deg,
+        #ab61c9a0,
+        #81defd
+          );
+    width: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 7px rgb(150, 56, 179, 0.5);
+}
+
+h3:hover{
+    transform: scale(1.03);/* scale(1.1) means zoom 110% */
+}
+
+#newtask{
+    margin-top: 1%;
+    position: relative;
+    background-color: rgb(235, 222, 206);
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+}
+#newtask input{
+    width: 70%;
+    height: 45px;
+    font-family: 'Macondo', cursive;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 12px;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    border-radius: 15px;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #e05780;
+}
+
+
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Macondo', cursive;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #9638b3;
+    letter-spacing: 2px;
+    border: none;
+    color: azure;
+    cursor: pointer;
+
+}
+#tasks{
+    background-color: azure ;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: azure;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+.task span{
+    font-family: 'Macondo', cursive;
+    font-size: 15px;
+    font-weight: 600;
+}
+.task button{
+    background-color: #9638b3;
+    color: white;
+    height: 100%;
+    width: 40px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+/* Hover effect Save and Trash Icon Button */
+button:hover {
+    box-shadow: 5px 5px 6px rgba(201, 37, 201, 0.8);
+    transform: scale(1.02);
+}
+
+.completed{
+    text-decoration: 3px line-through red;
+    text-transform: uppercase;
+}
