@@ -78,7 +78,15 @@ h3:hover{
 
 #newtask input:focus{
     outline: none;
-    border-color: #e05780;
+    border-color: #ec094d;
+    border: 2px solid rgb(233, 8, 45);
+    border-radius: 5px;
+    transform: scale(1.03);
+    box-shadow: 3px 5px 10px rgb(214, 89, 89);
+}
+
+#newtask input:hover{
+    box-shadow: 2px 3px 15px rgb(240, 100, 7);
 }
 
 
