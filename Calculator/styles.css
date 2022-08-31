@@ -1,6 +1,6 @@
 body {
     /* background: linear-gradient(100deg, rgb(248, 194, 194), rgb(144, 219, 213)); */
-    background-image: url(/bg.webp) ;
+    background-image: url(bg.webp) ;
     background-size: cover;
     background-repeat: no-repeat;
 }
