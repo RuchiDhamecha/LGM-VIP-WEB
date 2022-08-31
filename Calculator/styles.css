@@ -1,6 +1,6 @@
 body {
     /* background: linear-gradient(100deg, rgb(248, 194, 194), rgb(144, 219, 213)); */
-    background-image: url(bg.webp) ;
+    background-image: url('https://cdn.vectorstock.com/images/1000x1000/56/54/23855654.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
 }
